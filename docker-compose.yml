@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  mongo:
+    image: mongo:latest
+    volumes:
+      - ./mongo_db:/data/lib
+  app:
+    build: ./app
+    environment:
+      - DB_URL=mongodb://127.0.0.1:27017/zakaz_bot
+      - PORT=3030
+    ports:
+      - 3003:3000
+    depends_on:
+      - mongo
+    restart: always
+volumes:
+  mongo_db:

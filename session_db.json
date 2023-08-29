@@ -1,0 +1,74 @@
+{
+  "sessions": [
+    {
+      "id": "686712790:686712790",
+      "data": {
+        "__scenes": {
+          "current": "categoriyalar menusi",
+          "state": {}
+        },
+        "user": 686712790,
+        "button": {
+          "parse_mode": "HTML",
+          "reply_markup": {
+            "keyboard": [
+              [
+                {
+                  "text": "➕Mahsulot qo'shish",
+                  "hide": false
+                }
+              ],
+              [
+                {
+                  "text": "📝Mahsulotlarni ko'rish",
+                  "hide": false
+                }
+              ]
+            ],
+            "one_time_keyboard": true,
+            "resize_keyboard": true
+          }
+        },
+        "mainPage": "admin main page"
+      }
+    },
+    {
+      "id": "1943599621:1943599621",
+      "data": {
+        "__scenes": {
+          "current": "savat menusi",
+          "state": {}
+        },
+        "user": 1943599621,
+        "button": {
+          "reply_markup": {
+            "keyboard": [
+              [
+                {
+                  "text": "📝Mahsulotlarni ko'rish",
+                  "hide": false
+                }
+              ],
+              [
+                {
+                  "text": "🛒Savatni ko'rish",
+                  "hide": false
+                }
+              ],
+              [
+                {
+                  "text": "❓Savol yo'llang",
+                  "hide": false
+                }
+              ]
+            ],
+            "one_time_keyboard": true,
+            "resize_keyboard": true
+          }
+        },
+        "mainPage": "user main page",
+        "totalCost": null
+      }
+    }
+  ]
+}
